@@ -20,9 +20,8 @@
                 <div id="middle">
                     <div id="header">
                         <div  class="page_width">
-                            <img src="${contextPath}/images/logo5.png" />
-                            <div id="menu">
-                                <ul id="nav">
+                            <nav>
+                                <ul>
                                     <li><a href="/stripesmvc">Home</a></li>
                                     <li>
                                         <a href="#">About</a>
@@ -39,7 +38,7 @@
                                     </li>
                                     <li><a href="/contact">Contact</a></li>                   
                                 </ul>
-                            </div>
+                            </nav>
                         </div>
                     </div>
 
