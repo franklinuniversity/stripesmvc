@@ -1,0 +1,165 @@
+/* 
+    Document   : styles
+    Created on : Oct 12, 2013, 6:46:13 PM
+    Author     : marc lytle
+    Description:
+        Purpose of the stylesheet follows.
+*/
+html, body {
+    height: 100%;
+    background-color: #fff;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{height: 100%;}
+.page_width {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.page_width img {
+    float: right;
+
+}
+#header {
+    background-color: #0075cd;
+    height: 100px;
+    text-align: right;
+}
+
+#middle {
+    overflow: auto;
+    padding-bottom: 50px;
+    min-height: 100%;
+}
+
+#main_body {
+    float: left;
+}
+/*********************sidebar area - gone now*/
+#sidebar {
+    float: right;
+    width: 180px;
+    
+}
+.message_container {
+    margin-bottom: 10px;}
+
+.title {
+    background-color: #f2f2f2;
+    text-align: center;
+    }
+ 
+.message_body {
+}
+
+/***********************************banner area - also gone now*/
+.banner {
+    height: 200px;
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+    border: 0px;
+
+}
+.banner img {
+
+}
+/*******************************organizing the lists and drop down func*/
+#menu {
+    float: left;
+}
+#menu {
+    padding-left: 0px;
+    list-style:none;
+    margin-bottom:10px;
+    top: 50px;
+    width:100%;
+    position:relative;
+    z-index:5;
+}
+#menu ul {
+    list-style: none;
+}
+#menu li{
+    float:left;
+    margin-right:10px;
+    position:relative;
+}
+#menu a{
+    display:block;
+    padding:5px;
+    color:#fff;
+    background:#000;
+    text-decoration:none;
+}
+#menu a:hover{
+    color:#fff;
+    background:#000;
+    
+}
+
+
+#nav ul{
+    background:#fff; 
+    background:rgba(255,255,255,0);
+    list-style:none;
+    position:absolute;
+    left:-9999px; 
+}
+#nav ul li{
+    padding-top:1px; 
+    float:none;
+}
+#nav ul a{
+    white-space:nowrap;
+}
+#nav li:hover ul{ 
+    left:-40px; 
+    text-align: left;
+}
+#nav li:hover a{ 
+    background:#000;
+}
+#nav li:hover ul a{ 
+    text-decoration:none;
+}
+#nav li:hover ul li a:hover{ 
+    background:#333;
+}
+
+/****************************footer area*/
+#footer {
+    background-color: #000;
+    text-align: center;
+    clear: both;
+    margin-top: -50px;
+    height: 50px;
+    padding: 0;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    color: #fff;
+}
+/************************return message*/
+.messages {
+    list-style: none;
+    display: block;
+    margin-bottom: 8px;
+    background-color: #f2f2f2
+}
+
+.messages p {
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+}
+/**********************datepicker smaller now*/
+.ui-datepicker{
+ font-size:10px;
+}
+#search {border-style: none;
+    border-collapse: collapse;
+    }
+#search td{padding-right: 20px;}
+#search tr:nth-child(even) {background: #cccccc;}
+#search tr:nth-child(odd) {background: #fff;}
